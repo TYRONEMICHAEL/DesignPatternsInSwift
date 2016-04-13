@@ -12,8 +12,6 @@
 		6300DA1B1CBC177300D6F662 /* DesignPatternsInSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6300DA061CBC177300D6F662 /* DesignPatternsInSwift.framework */; };
 		6300DA1C1CBC177300D6F662 /* DesignPatternsInSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6300DA061CBC177300D6F662 /* DesignPatternsInSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6300DA2D1CBC186400D6F662 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6300DA271CBC186400D6F662 /* Info.plist */; };
-		6300DA331CBC18A600D6F662 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6300DA321CBC18A600D6F662 /* Factory.swift */; };
-		6300DA341CBC18D500D6F662 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6300DA321CBC18A600D6F662 /* Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +66,8 @@
 		6300D9F71CBC165000D6F662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6300DA061CBC177300D6F662 /* DesignPatternsInSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignPatternsInSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6300DA0F1CBC177300D6F662 /* DesignPatternsInSwift-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesignPatternsInSwift-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6300DA241CBC17A200D6F662 /* FactoryPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = FactoryPattern.playground; path = ../FactoryPattern.playground; sourceTree = "<group>"; };
 		6300DA271CBC186400D6F662 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6300DA321CBC18A600D6F662 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		63CC75EE1CBEA6C200186588 /* NullObjectPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NullObjectPattern.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +127,7 @@
 		6300D9DF1CBC165000D6F662 /* DesignPatternsInSwift */ = {
 			isa = PBXGroup;
 			children = (
-				6300DA311CBC188300D6F662 /* FactoryPattern */,
+				63CC75EE1CBEA6C200186588 /* NullObjectPattern.playground */,
 				6300DA271CBC186400D6F662 /* Info.plist */,
 			);
 			path = DesignPatternsInSwift;
@@ -143,15 +140,6 @@
 				6300D9F71CBC165000D6F662 /* Info.plist */,
 			);
 			path = DesignPatternsInSwiftTests;
-			sourceTree = "<group>";
-		};
-		6300DA311CBC188300D6F662 /* FactoryPattern */ = {
-			isa = PBXGroup;
-			children = (
-				6300DA241CBC17A200D6F662 /* FactoryPattern.playground */,
-				6300DA321CBC18A600D6F662 /* Factory.swift */,
-			);
-			name = FactoryPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6300DA331CBC18A600D6F662 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6300DA341CBC18D500D6F662 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +454,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DesignPatternsInSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tyronemichael.DesignPatternsInSwift;
@@ -482,7 +467,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DesignPatternsInSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tyronemichael.DesignPatternsInSwift;
@@ -611,6 +595,7 @@
 				6300DA1F1CBC177300D6F662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6300DA211CBC177300D6F662 /* Build configuration list for PBXNativeTarget "DesignPatternsInSwift-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -619,6 +604,7 @@
 				6300DA231CBC177300D6F662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
