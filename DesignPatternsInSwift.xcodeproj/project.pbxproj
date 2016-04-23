@@ -69,6 +69,7 @@
 		6300DA271CBC186400D6F662 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		635CD03B1CC51F2700A38307 /* ObjectAdapterPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObjectAdapterPattern.playground; sourceTree = "<group>"; };
 		635CD03C1CC523A600A38307 /* StrategyPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = StrategyPattern.playground; path = ../StrategyPattern.playground; sourceTree = "<group>"; };
+		635D1D4F1CCB9766006FB5AC /* FactoryNullObjectDelegatePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryNullObjectDelegatePattern.playground; sourceTree = "<group>"; };
 		63A260031CC6A8A700C4A5E8 /* FactoryPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryPattern.playground; sourceTree = "<group>"; };
 		63CC75EE1CBEA6C200186588 /* NullObjectPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NullObjectPattern.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +131,7 @@
 		6300D9DF1CBC165000D6F662 /* DesignPatternsInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				635D1D4F1CCB9766006FB5AC /* FactoryNullObjectDelegatePattern.playground */,
 				63A260031CC6A8A700C4A5E8 /* FactoryPattern.playground */,
 				635CD03C1CC523A600A38307 /* StrategyPattern.playground */,
 				635CD03B1CC51F2700A38307 /* ObjectAdapterPattern.playground */,
