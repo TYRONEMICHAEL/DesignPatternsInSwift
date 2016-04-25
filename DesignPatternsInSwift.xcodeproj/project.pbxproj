@@ -72,6 +72,8 @@
 		635D1D4F1CCB9766006FB5AC /* FactoryNullObjectDelegatePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryNullObjectDelegatePattern.playground; sourceTree = "<group>"; };
 		63A260031CC6A8A700C4A5E8 /* FactoryPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryPattern.playground; sourceTree = "<group>"; };
 		63CC75EE1CBEA6C200186588 /* NullObjectPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NullObjectPattern.playground; sourceTree = "<group>"; };
+		63F0429F1CCE5A2F002F3871 /* DecoratorPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DecoratorPattern.playground; sourceTree = "<group>"; };
+		63F042A01CCE5D4F002F3871 /* CompositePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CompositePattern.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,8 @@
 		6300D9DF1CBC165000D6F662 /* DesignPatternsInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				63F042A01CCE5D4F002F3871 /* CompositePattern.playground */,
+				63F0429F1CCE5A2F002F3871 /* DecoratorPattern.playground */,
 				635D1D4F1CCB9766006FB5AC /* FactoryNullObjectDelegatePattern.playground */,
 				63A260031CC6A8A700C4A5E8 /* FactoryPattern.playground */,
 				635CD03C1CC523A600A38307 /* StrategyPattern.playground */,
